@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#root div .login-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root div .register-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+section {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(6, 48, 6);
+  color: bisque;
+  border: 2px solid burlywood;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1rem 0;
+}
+
+a,
+a:visited {
+  color: lemonchiffon;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+button,
+form button,
+textarea {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 2px solid burlywood;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 5px;
+  border-radius: 0.5rem;
+  border: 2px solid burlywood;
+  cursor: pointer;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid firebrick;
+  border-radius: 0.5rem;
+  font-size: 22px;
+}
+
+.line {
+  display: inline-block;
+}
+
+.page-content {
+  border-bottom: 10px solid darkolivegreen;
+  border-top: 50px solid darkolivegreen;
+}
+
+.daily-container,
+.weekly-container,
+.biweekly-container,
+.final-container {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.daily-item,
+.weekly-item,
+.biweekly-item {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 15px 20px 0 20px;
+}
+
+.final-item {
+  padding: 15px 20px 0 20px;
+}
+
+.navigate-home {
+  cursor: pointer;
+}

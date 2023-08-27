@@ -1,0 +1,6 @@
+.register-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: rgb(30, 100, 30);
+}

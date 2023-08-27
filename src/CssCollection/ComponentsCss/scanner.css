@@ -1,0 +1,9 @@
+.qr-scanner {
+    width: 40%;
+    height: 30%;
+    border-radius: 5%;
+    border: 4px solid black;
+    object-fit: contain;
+    padding: 20px;
+    margin-top: 2%;
+}

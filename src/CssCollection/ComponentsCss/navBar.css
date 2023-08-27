@@ -1,0 +1,40 @@
+.top-navigation-bar-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0b7e47;
+  margin: 0;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 10px solid darkolivegreen;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.navigation-link,
+.navigation-logo {
+  margin: auto;
+  text-decoration: none;
+}
+
+.navigation-logo {
+  margin-left: 10px;
+}
+
+.navigation-button {
+  background-color: rgb(6, 48, 6);
+  color: #bbb;
+  cursor: pointer;
+}
+
+.navigation-logo-img {
+  width: 50px;
+  margin-left: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
