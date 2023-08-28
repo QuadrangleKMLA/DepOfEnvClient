@@ -67,7 +67,7 @@ const Register = () => {
         >
           {errorMessage}
         </p>
-        <h1>Sign Up</h1>
+        <h1>Register</h1>
         <form onSubmit={handleSubmit}>
           <input
             type='text'
