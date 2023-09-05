@@ -1,0 +1,10 @@
+version: "3.1"
+services:
+  client:
+    image: dep-of-env-client
+    build: .
+    restart: always
+    ports:
+      - "3000:80"
+    environment:
+      GENERATE_SOURCEMAP: false
