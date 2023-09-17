@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   client:
-    image: dep-of-env-kmla:frontend-v0.0.1
+    image: dep-of-env-kmla:frontend-v1.0.0
     build:
       context: ..
       dockerfile: depofenvkmla_client/Dockerfile
